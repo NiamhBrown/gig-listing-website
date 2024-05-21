@@ -1,13 +1,12 @@
-import Hello from "./components/Hello";
-import makersLogo from "./assets/Makers-Logo.png";
-import "./App.css";
+import Gig from "./components/Gig";
+import "./styles/App.css";
+import "./styles/Gig.css";
 
 function App() {
   return (
-    <>
-      <Hello name="World" />
-      <img className="logo" src={makersLogo}></img>
-    </>
+    <div>
+      <Gig/>
+    </div>
   );
 }
 
